@@ -11,8 +11,12 @@ let ThirdWordLength = ThirdWord.length;
 let FourthWordLength = FourthWord.length;
 let FifthWordLength = FifthWord.length;
 
-console.log("First word : " + FirstWord);
-console.log("Second word : " + SecondWord);
-console.log("Third word : " + ThirdWord);
-console.log("Fourth word : " + FourthWord);
-console.log("Fifth word : " + FifthWord);
+console.log("First word : " + FirstWord + ", with Length : " + FirstWordLength);
+console.log(
+  "Second word : " + SecondWord + ", with Length : " + SecondWordLength,
+);
+console.log("Third word : " + ThirdWord + ", with Length : " + ThirdWordLength);
+console.log(
+  "Fourth word : " + FourthWord + ", with Length : " + FourthWordLength,
+);
+console.log("Fifth word : " + FifthWord + ", with Length : " + FifthWordLength);
