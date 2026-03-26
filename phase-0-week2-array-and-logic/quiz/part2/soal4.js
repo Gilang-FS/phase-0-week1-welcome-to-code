@@ -1,8 +1,13 @@
 function pasanganTerbesar(num) {
-  let hasil = "";
-  for (let i = num.length - 1; i >= 0; i--) {
-    hasil = num + num[i];
+  let str = num.toString();
+  let max = 0;
+  for (let i = 0; i < str.length - 1; i++) {
+    let pasangan = Number(str[i] + str[i + 1]);
+    if (pasangan > max) {
+      max = pasangan;
+    }
   }
+  return max;
 }
 
 // TEST CASES
